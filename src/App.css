@@ -150,7 +150,24 @@ input {
   cursor: pointer;
   letter-spacing: 2px;
 }
-
+input{
+  text-align: center; 
+  }
+  .rounded{
+      border-radius: 100%;
+  }
+  .first {
+      background-color: red;
+  } 
+  .second {
+      background-color: orange;
+  } 
+  .third {
+      background-color: blue;
+  } 
+  .error{
+    color: red;
+  }
 
 /*Mobile Version*/
 @media only screen and (max-width: 600px) {
